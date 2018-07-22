@@ -27,7 +27,7 @@ def revoke(ip):
 
 
 def get_current_ip():
-    r = requests.get('http://wtfismyip.com/json')
+    r = requests.get('http://ipv4.wtfismyip.com/json')
     if not r:
         print('Error: Cannot get current IP address.')
         sys.exit(1)
