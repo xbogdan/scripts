@@ -84,4 +84,4 @@ if __name__ == '__main__':
             revoke(f'{current_ip}/{cidr_size}')
         authorize()
     
-    print('Successfully authorized current IP')
+    print(f'Successfully authorized IP: {current_ip}')
